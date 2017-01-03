@@ -14,9 +14,7 @@ function getData(){
             var Username = data.username;
             var followers = data.followers;
             var totalViews = data.video_views;
-            var sub = data.partner;
-            var ID = data.user_id;
-            var joined = data.created_at.replace('T', ' at ');
+            var ID = data.user_id
 
          var html = '<center><img src="' + avatar + '"width="100px" height="100px" style="border:3px solid red">'+
                      '<h1><span class="label label-success">' + Username + '</h1>'+
